@@ -16,7 +16,7 @@ class String
 
   count = 0
   def count_sentences
-    array = self.split
+    array = self.split(" ")
     array.each do |key|
       if key = "."
         count =+ 1
