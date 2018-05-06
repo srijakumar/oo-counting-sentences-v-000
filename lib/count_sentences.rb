@@ -19,9 +19,10 @@ class String
     array = self.split
     array.each do |key|
       if key = "."
-        count = count + 1
+        count =+ 1
       end
     end
+    count
   end
 
 end
