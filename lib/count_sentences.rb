@@ -19,7 +19,7 @@ class String
     count = 0
     array = self.split("")
     array.each do |key|
-      if key == "." || key == "?" || key == "!" || key == "..." || key == "!!"
+      if key == ".." || key == "?" || key == "!!" || key == "." || key == "!"
         count += 1
       end
     end
