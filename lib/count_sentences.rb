@@ -16,14 +16,7 @@ class String
 
 
   def count_sentences
-    count = 0
-    array = self.split("")
-    array.each do |key|
-      if key == ".." || key == "?" || key == "!!" || key == "." || key == "!"
-        count += 1
-      end
-    end
-    count
+    self.split(/\.+|\?+|\!+/).count
   end
 
 end
