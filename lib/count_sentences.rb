@@ -15,7 +15,7 @@ class String
   end
 
   count = 0
-  def count_sentences(sentence)
+  def count_sentences
     array = self.split
     array.each do |key|
       if key = "."
