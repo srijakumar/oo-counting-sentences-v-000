@@ -20,6 +20,7 @@ class String
     array.each do |key|
       if key = "." || "?" || "!"
         count =+ 1
+      end
     end
     count
   end
