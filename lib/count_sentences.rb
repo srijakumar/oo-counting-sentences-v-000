@@ -14,8 +14,9 @@ class String
     self.end_with?("!")
   end
 
-  count = 0
+
   def count_sentences
+    count = 0
     array = self.split("")
     array.each do |key|
       if key = "." || "?" || "!"
